@@ -15,7 +15,7 @@ source("FonctionsAjustement.R")
 
 
 ## Données grains
-grains <- read.csv("~/Arvalis/Data/dimgr16red_corLauren.csv")
+grains <- read.csv("donnees.csv")
 grains$Serie <- as.factor(grains$Serie)
 grains$trait <- as.factor(grains$trait)
 grains$type <- as.factor(substr(as.character(grains$trait), 2, 2))
