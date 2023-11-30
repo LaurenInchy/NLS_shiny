@@ -11,7 +11,7 @@ assemblageModel <- function(modele, param){
 }
 
 ## Répertoire des fonctions de croissance
-source("~/Arvalis/Scripts/FonctionsAjustement.R")
+source("FonctionsAjustement.R")
 
 
 ## Données grains
